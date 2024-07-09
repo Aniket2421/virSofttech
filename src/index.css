@@ -1,0 +1,57 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.crypto-item {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffa500;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.crypto-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.crypto-item p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.crypto-item input {
+  width: 50px;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.crypto-item button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.crypto-item button:hover {
+  background-color: #0056b3;
+}
+
+.cart {
+  margin-top: 40px;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
